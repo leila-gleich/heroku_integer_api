@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import json
 import sys
 import os
-from package_flask.package.IntStream import *
+from package.IntStream import *
 # from .config import *
 
 
