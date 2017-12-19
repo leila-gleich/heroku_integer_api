@@ -1,1 +1,1 @@
-web: gunicorn integer_api:app --log-file=- --preload
+web: gunicorn integer_api:app --log-file=- 
