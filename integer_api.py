@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import json
 from IntStream import IntStream
-from .config import *
+# from .config import *
 
 leila_api=IntStream("0VJu0qb6zX5dxeios940p4hDChi15tcS8mnQ9YmS", "https://dev.jetty.com/v1/quote/quiz/next/leila1", "https://dev.jetty.com/v1/quote/quiz/next/leila2")
 
